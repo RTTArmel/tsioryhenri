@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -30,4 +31,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav{
+  background-color: rgb(136, 24, 24);
+  height: 90px;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.foot{
+  margin-top: 390px;
+  padding-top: 10px;
+  color: white !important;
+  background-color: rgb(116, 34, 34);
+  height: 95px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+  margin-right: 20px;
 }
