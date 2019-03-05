@@ -6,6 +6,9 @@ import Footer from './Component/Footer/Footer';
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
+import './Component/Accueil/Accueil.css';
+import './Component/Contact/Contact.css';
+import './Component/Apropos/Apropos.css';
 
 class App extends Component {
   render() {
@@ -13,9 +16,9 @@ class App extends Component {
         <Router>
               <div>
                 <nav>
-                      <a><Link to="/">Accueil</Link></a>
-                      <a><Link to="/about">A propos</Link></a>
-                      <a><Link to="/contact">Contact</Link></a>
+                    <a><Link to="/">Accueil</Link></a>
+                    <a><Link to="/about">A propos</Link></a>
+                    <a><Link to="/contact">Contact</Link></a>
                 </nav>
 
                 <Route path="/" exact component={Accueil} />

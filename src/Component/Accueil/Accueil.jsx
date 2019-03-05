@@ -4,7 +4,7 @@ export default class Accueil extends Component {
   render() {
     return (
       <div>
-        <p>ce Vous êtes sur l'ACCUEIL</p>
+        <p>Vous êtes sur l'ACCUEIL</p>
       </div>
     );
   };

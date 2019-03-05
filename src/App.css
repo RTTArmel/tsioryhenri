@@ -41,7 +41,7 @@ nav{
   padding-top: 50px;
 }
 .foot{
-  margin-top: 390px;
+  margin-top: 200px;
   padding-top: 10px;
   color: white !important;
   background-color: rgb(116, 34, 34);
@@ -51,6 +51,7 @@ nav{
   text-align: center;
 }
 a{
+  margin-top: 50px !important;
   text-decoration: none !important;
   color: white !important;
   margin-right: 20px;
